@@ -11,7 +11,7 @@ from plugins import *
 @plugins.register(
     name="Finish",
     desire_priority=-999,
-    hidden=True,
+    hidden=False,
     desc="A plugin that check unknown command",
     version="1.0",
     author="js00000",
@@ -37,4 +37,4 @@ class Finish(Plugin):
             e_context.action = EventAction.BREAK_PASS  # 事件结束，并跳过处理context的默认逻辑
 
     def get_help_text(self, **kwargs):
-        return ""
+        return "A plugin that check unknown command"

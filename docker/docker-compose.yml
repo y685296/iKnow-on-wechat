@@ -7,7 +7,7 @@ services:
       - seccomp:unconfined
     environment:
       OPEN_AI_API_KEY: 'YOUR API KEY'
-      MODEL: 'gpt-3.5-turbo'
+      MODEL: 'wenxin'
       PROXY: ''
       SINGLE_CHAT_PREFIX: '["bot", "@bot"]'
       SINGLE_CHAT_REPLY_PREFIX: '"[bot] "'
@@ -16,9 +16,19 @@ services:
       IMAGE_CREATE_PREFIX: '["画", "看", "找"]'
       CONVERSATION_MAX_TOKENS: 1000
       SPEECH_RECOGNITION: 'False'
-      CHARACTER_DESC: '你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。'
+      CHARACTER_DESC: '你叫李华，是一个48岁经验丰富的医生，擅长肿瘤，癌症方面的诊断与治疗，性格活泼开朗，爱好登山，跑步，现在你充当虚拟医生 。我会描述我的症状，你会提供诊断和治疗方案。只回复你的诊疗方案，其他不回复。不要写解释，回复内容的最后结尾词句可不要添加。'
       EXPIRES_IN_SECONDS: 3600
       USE_GLOBAL_PLUGIN_CONFIG: 'True'
       USE_LINKAI: 'False'
-      LINKAI_API_KEY: ''
-      LINKAI_APP_CODE: ''
+      LINKAI_API_KEY: 'Link_UtVsVG3Lv5w2jlV9ShUOE0YH7OmurkX5rnZrWJ5Jzb'
+      LINKAI_APP_CODE: 'iAxA5oDE'
+      BAIDU_WENXIN_MODEL: 'eb-instant'
+      BAIDU_WENXIN_API_KEY: 'DEW2e9caRoKHT53H1chIMRA0'
+      BAIDU_WENXIN_SECRET_KEY: 'FSe83WouWePik6DPZkpFTLPtM2fNlkdX'
+      CHANNEL_TYPE: 'wechatcom_app'
+      WECHATCOM_CORP_ID: 'wwb70856a13dfa36b1'
+      WECHATCOMAPP_TOKEN: 'dKTaCGf1o89GCM7C'
+      WECHATCOMAPP_PORT: 9898
+      WECHATCOMAPP_SECRET: ''
+      WECHATCOMAPP_AGENT_ID: ''
+      WECHATCOMAPP_AES_KEY: 'AiTz0g3paUyWyPv8Z8ZcqMFUGlhU99XkEckWxZPDLij'

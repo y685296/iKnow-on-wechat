@@ -16,6 +16,7 @@ from plugins import *
 
 @plugins.register(
     name="tool",
+    hidden=False,
     desc="Arming your ChatGPT bot with various tools",
     version="0.4",
     author="goldfishh",
@@ -55,6 +56,7 @@ class Tool(Plugin):
             const.OPEN_AI,
             const.CHATGPTONAZURE,
             const.LINKAI,
+            const.BAIDU
         ):
             return
 
