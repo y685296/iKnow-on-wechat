@@ -112,7 +112,8 @@ available_setting = {
     # 知识库平台配置
     "use_linkai": False,
     "linkai_api_key": "",
-    "linkai_app_code": ""
+    "linkai_app_code": "",
+    "groupx_host_url":"https://groupx.mfull.cn", # groupx api 服务器url
 }
 
 
